@@ -1,0 +1,63 @@
+<!--Star Wars RPG game-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Star Wars RPG</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+	<header class="container-fluid">
+		<h1 class="text-center col-xs-12 col-sm-6 pull-right">Star Wars RPG!</h1>
+	</header>
+
+	<div class="container-fluid">
+		<h2 id="character-prompt">Choose a Character</h2>
+		<div id="your-character" class="row">
+			<div id="rey" class="col-xs-3 col-sm-2 text-center character">
+				<p>Rey</p>
+				<img src="assets/images/rey.png">
+				<p class="health">100</p>
+			</div>
+			<div id="luke" class="col-xs-3 col-sm-2 text-center character">
+				<p>Luke Skywalker</p>
+				<img src="assets/images/luke.png">
+				<p class="health">120</p>
+			</div>
+			<div id="snoke" class="col-xs-3 col-sm-2 text-center character">
+				<p>Snoke</p>
+				<img src="assets/images/snoke.png">
+				<p class="health">150</p>
+			</div>
+			<div id="kylo-ren" class="col-xs-3 col-sm-2 text-center character">
+				<p>Kylo Ren</p>
+				<img src="assets/images/kylo-ren.png">
+				<p class="health">100</p>
+			</div>
+		</div>
+
+		<h2 id="defender-prompt">Enemies</h2>
+		<div id="enemies" class="row">
+			
+		</div>
+
+		<h2>Fight Section</h2>
+		<button id="attack-button">Attack</button>
+		
+		<h2>Defender</h2>
+		<div id="defender" class="row">
+			
+		</div>
+
+		<div id="message"></div>
+		<button id="restart-button" class="hidden">Restart</button>
+
+		<div id="graveyard" class="hidden"></div>
+	</div>
+</body>
+<audio id="music" src="" class="hidden"></audio>
+</html>

@@ -1,0 +1,30 @@
+body{
+	font-family: 'Share Tech Mono', monospace;
+	background-image: url("../images/background.png");
+}
+
+.character{
+	border: #0b0 2px solid;
+	background-color: #fff;
+	padding: 0;
+	color: #000;
+}
+
+.character img{
+	width: 90%;
+	margin: 0 5% 0 5%;
+}
+
+.character p{
+	margin: 0;
+	font-size: 12px;
+}
+
+.enemy{
+	background-color: #d00;
+}
+
+.defender{
+	background-color: #000;
+	color: #fff;
+}
